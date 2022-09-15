@@ -765,7 +765,7 @@ module.exports = {
                     if (xp > 9999999999999999999999) m.reply('Ngecit -_-') // Hehehe
                     else m.exp += xp
                     if (!isPrems && plugin.limit && db.data.users[m.sender].limit < plugin.limit * 1) {
-                     //   this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
+                     //   /*this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)*\
                         this.sendButton(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buyall* atau *${usedPrefix}buypremium*`, author, null, [['Buy Limit', '/buyall'], ['Buy Premium', '/buypremium']], m)
                         continue // Limit habis
                     }
