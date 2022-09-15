@@ -16,7 +16,7 @@ conn.sendMessage(m.chat, {
 })
 }, 0)
 }
-handler.help = ['buypreimum']
+handler.help = ['buypremium']
 handler.tag = ['premium']
 handler.command = /^(buypremium)$/i
 
