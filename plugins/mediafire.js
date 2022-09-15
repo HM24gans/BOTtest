@@ -37,5 +37,6 @@ handler.command = /^(me?d(ia)?f(ire)?)$/i
 
 handler.limit = true
 handler.group = true
+handler.premium = true
 
 module.exports = handler
