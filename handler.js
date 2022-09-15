@@ -34,8 +34,8 @@ module.exports = {
                     if (!isNumber(user.exp)) user.exp = 0
                     if (!isNumber(user.limit)) user.limit = 10
                     if (!isNumber(user.joinlimit)) user.joinlimit = 1
-                    if (!isNumber(user.money)) user.money = 10
-                    if (!isNumber(user.bank)) user.bank = 10
+                    if (!isNumber(user.money)) user.money = 100000
+                    if (!isNumber(user.bank)) user.bank = 100000
                     if (!isNumber(user.lastclaim)) user.lastclaim = 0
                     if (!('registered' in user)) user.registered = false
                     if (!user.registered) {
@@ -765,8 +765,8 @@ module.exports = {
                     if (xp > 9999999999999999999999) m.reply('Ngecit -_-') // Hehehe
                     else m.exp += xp
                     if (!isPrems && plugin.limit && db.data.users[m.sender].limit < plugin.limit * 1) {
-                     //   /*this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)*\
-                        this.sendButton(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buyall* atau *${usedPrefix}buypremium*`, author, null, [['Buy Limit', '/buyall'], ['Buy Premium', '/buypremium']], m)
+                     //   this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
+                        this.sendButton(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buyall* atau *${usedPrefix}hadiah*`, author, null, [['Buy Limit', '/buyall'], ['Hadiah', '/hadiah']], m)
                         continue // Limit habis
                     }
                     if (plugin.level > _user.level) {
@@ -866,11 +866,11 @@ module.exports = {
                 }
             }
 
-             try {
-                 require('./lib/print')(m, this)
-             } catch (e) {
-                 console.log(m, m.quoted, e)
-             }
+            // try {
+            //     require('./lib/print')(m, this)
+            // } catch (e) {
+            //     console.log(m, m.quoted, e)
+            // }
             if (opts['autoread']) await this.readMessages([m.key]) //this.chatRead(m.chat, m.isGroup ? m.sender : undefined, m.id || m.key.id).catch(() => { })
         }
     },
@@ -986,7 +986,13 @@ global.dfail = (type, m, conn) => {
         rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
         owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
         mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-        premium: '*Premium*\n1 Bulan*25k*\n Unlimited *55k*\n\nHubungi *owner* kami..', 
+        premium: '• Harga member premium (unlimited limit) 50k.
+• Pembayaran melalui dana/gopay/pulsa (khusus pulsa pajak 5k jadi 55k).
+• Member premium akan mendapat unlimited limit.
+• Premium akan selalu aktif saat bot juga aktif (bisa dibilang permanen).
+• Ketika bot berganti nomor, premium kamu akan tetap aktif.
+
+Bila berminat bergabung ke member premium silahkan chat owner: https://wa.me/6283174295037', 
         banned: 'Perintah ini hanya untuk pengguna yang terbanned..',
         created: 'Perintah ini hanya pengguna yang sudah membuat base\nContoh: #createbase Aine',
         group: 'Perintah ini hanya dapat digunakan di grup!',
