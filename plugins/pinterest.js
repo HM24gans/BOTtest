@@ -28,7 +28,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 	  if (!text) throw `Contoh: ${usedPrefix + command} cewe cantik`
 	  scrap.pinterest(text)
       .then(a => a[Math.floor(Math.random() * a.length)])
-       .then(b => conn.sendFile(m.chat,b,b,"*PINTEREST*\n\npencarian dari: " + text, m)
+       .then(b => conn.sendFile(m.chat,b,b,"*PINTEREST*\n*SUPPORT AGAR BOT TRUS AKTIF\nsaweria.co/HudhaBot\n\npencarian dari: " + text, m)
     )}
     
 handler.help = ['pinterest <text>']
