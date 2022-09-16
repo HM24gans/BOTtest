@@ -10,7 +10,7 @@ conn.sendMessage(m.chat, {
 *(paling murah SE-INDONESIA)*
 *_Garansi berlaku apabila OTAV gagal terkirim_*
 
-*Harga: mulai dari 4k-23k*
+*Harga: mulai dari 5-50k*
 *(Tergantung negara) 🌐*
 
 *Pembayaran bisa dilakukan via:*
@@ -25,88 +25,88 @@ conn.sendMessage(m.chat, {
 *_LIST NEGARA/COUNTRY CODE:_*
 
 *Total list: 100+*
-Algeria (+213) = 9k
-Argentina (+54) = 9k
-Austria (+43) = 12k
-Azerbaijan (+994) = 11k
-Belarus (+375) = 15k
-Belgium (+32) = 11k
-Bolivia (+591) = 9k
-Brazil (+55) = 11k
-Cambodia (+855) = 8k
-Cameroon (+237) = 9k
-Canada (+1) = 11k
-Chad (+235) = 12k
-China (+86) = 8k
-Colombia (+57) = 10k
-Croatia (+385) = 11k
-Cyprus (+357) = 20k
-Côte d'Ivoire (+225) = 13k
-Egypt (+20) = 15k
-El Salvador (+503) = 10k
-Estonia (+372) = 11k
-Ethiopia (+251) = 9k
-France (+33) = 13k
-Gambia (+220) = 12k
-Germany (+49) = 16k
-Ghana (+233) = 9k
-Greece (+30) = 11k
-Haiti (+509) = 11k
-Hong Kong (+852) = 12k
-India (+91) = 9k
-Indonesia (+62) = 4k
-Iran (+98) = 16k
-Ireland (+353) = 8k
-Israel (+972) = 12k
-Kazakhstan (+7) = 8k
-Kenya (+254) = 8k
-Kyrgyztan (+996) = 11k
-Macao (+853) = 9k
-Malawi (+265) = 9k
-Malaysia (+60) = 11k
-Mali (+223) = 16k
-Mauritania (+222) = 12k
-Mexico (+52) = 9k
-Montonegro (+382) = 11k
-Morocco (+212) = 8k
-Myanmar (+95) = 9k
-Netherlands (+31) = 14k
-New Caledonia (+687) = 20k
-Nicaragua (+505) = 8k
-Nigeria (+234) = 8k
-Pakistan (+92) = 8k
-Panama (+507) = 12k
-Peru (+51) = 9k
-Philippines (+63) = 8k
-Puerto Rico (+1) = 9k
-Reunion (+262) = 9k
-Romania (+40) = 12k
-Russia (+7) = 7k
-Saudi Arabia (+966) = 12k
-Senegal (+221) = 8k
-Serbia (+381) = 12k
-Singapore (+65) = 12k
-South Africa (+27) = 8k
-Spain (+34) = 16k
-Sudan (+249) = 9k
-Taiwan (+886) = 11k
-Thailand (+66) = 8k
-Togo (+228) = 10k
-Tunisia (+216) = 9k
-Turkey (+90) = 9k
-UAE (+971) = 9k
-Uganda (+256) = 9k
-UK (+44) = 11k
-Ukraine (+380) = 8k
-Uzbekistan (+998) = 12k
-Venezuela (+58) = 9k
-Vietnam (+84) = 8k
-Yemen (+967) = 16k
-Zambia (+260) = 9k
-Zimbabwe (+263) = 9k
+Algeria (+213) 
+Argentina (+54)
+Austria (+43) 
+Azerbaijan (+994) 
+Belarus (+375)
+Belgium (+32)
+Bolivia (+591)
+Brazil (+55) =
+Cambodia (+855) 
+Cameroon (+237) 
+Canada (+1) 
+Chad (+235) 
+China (+86) 
+Colombia (+57) 
+Croatia (+385) 
+Cyprus (+357) 
+Côte d'Ivoire (+225) 
+Egypt (+20)
+El Salvador (+503) 
+Estonia (+372) 
+Ethiopia (+251) 
+France (+33) 
+Gambia (+220) 
+Germany (+49) 
+Ghana (+233) 
+Greece (+30) 
+Haiti (+509) 
+Hong Kong (+852)
+India (+91) 
+Indonesia (+62) 
+Iran (+98) 
+Ireland (+353) 
+Israel (+972) 
+Kazakhstan (+7) 
+Kenya (+254) 
+Kyrgyztan (+996) 
+Macao (+853) 
+Malawi (+265) 
+Malaysia (+60) 
+Mali (+223) 
+Mauritania (+222)
+Mexico (+52) 
+Montonegro (+382) 
+Morocco (+212) 
+Myanmar (+95) 
+Netherlands (+31)
+New Caledonia (+687) 
+Nicaragua (+505) 
+Nigeria (+234) 
+Pakistan (+92) 
+Panama (+507) 
+Peru (+51) 
+Philippines (+63) 
+Puerto Rico (+1) 
+Reunion (+262) 
+Romania (+40) 
+Russia (+7) 
+Saudi Arabia (+966) 
+Senegal (+221) 
+Serbia (+381) 
+Singapore (+65) 
+South Africa (+27) 
+Spain (+34) 
+Sudan (+249) 
+Taiwan (+886) 
+Thailand (+66) 
+Togo (+228) 
+Tunisia (+216) 
+Turkey (+90) 
+UAE (+971) 
+Uganda (+256) 
+UK (+44) 
+Ukraine (+380)
+Uzbekistan (+998)
+Venezuela (+58) 
+Vietnam (+84) 
+Yemen (+967) 
+Zambia (+260) 
+Zimbabwe (+263) 
 *DAN LAIN-LAIN...*
 
-*...: FAQ MOCH HUDHA XD :...*
+*...: FAQ Dha/24 :...*
 
 *Q: Nomor yg didapatkan itu darimana min?*
 *A: Semua nomor yg kami dapatkan dari penyuplai adalah real sim-card :D.*
