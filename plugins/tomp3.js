@@ -23,5 +23,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['tomp3', 'tovn']
 handler.tags = ['audio']
 handler.command = /^to(mp3|a(udio)?|vn|ptt)$/i
+handler.limit = true
 
 module.exports = handler
