@@ -11,6 +11,7 @@ handler.tags = ['group']
 handler.command = /^(tagall)$/i
 
 handler.group = true
+handler.limit = true
 handler.admin = true
 
 module.exports = handler
