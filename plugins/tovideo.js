@@ -23,6 +23,7 @@ handler.help = ['tovideo (reply)']
 handler.tags = ['sticker']
 
 handler.command = ['tovideo']
+
 handler.premium = true
 
 module.exports = handler
