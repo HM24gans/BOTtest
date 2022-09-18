@@ -3,9 +3,9 @@ let handler = async (m, { conn, args, text, usedPrefix }) => {
 setTimeout(() => {
 conn.sendMessage(m.chat, {
   text: `*_Jasa Run Bot_*
-*5RB*:10 Hari
-*10RB*:20 Hari
-*20RB*:30 Hari
+*5RB*:15 Hari
+*10RB*:25 Hari
+*20RB*:35 Hari
 
 *_Bot On 24 Jam Karena Run Via RDP_*`,
   templateButtons: [{
@@ -31,5 +31,5 @@ conn.reply(m.chat, '*_Ready Jasa Run BOT_*', m)
 handler.help = ['runbot']
 handler.tag = ['internet']
 handler.command = /^(runbot)$/i
-
+handler.limit = true
 module.exports = handler
