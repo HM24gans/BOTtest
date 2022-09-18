@@ -15,6 +15,6 @@ handler.help = ['tesdelete']
 handler.tags = ['tools']
 handler.command = /^(tesdel|tesdelete|tesdel|td)$/i
 handler.limit = false
-handler.admin = true
+handler.premium = true
 handler.botAdmin = true
 module.exports = handler
