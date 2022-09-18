@@ -766,7 +766,7 @@ module.exports = {
                     else m.exp += xp
                     if (!isPrems && plugin.limit && db.data.users[m.sender].limit < plugin.limit * 1) {
                      //   this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
-                        this.sendButton(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buyall* atau *${usedPrefix}premium*`, author, null, [['Buy Limit', '/buyall'], ['Buy Premium', '/premium']], m)
+                        this.sendButton(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}owner* atau *${usedPrefix}premium*`, author, null, [['OWNER', '/owner'], ['BUY PREMIUM', '/premium']], m)
                         continue // Limit habis
                     }
                     if (plugin.level > _user.level) {
@@ -990,9 +990,9 @@ global.dfail = (type, m, conn) => {
         banned: 'Perintah ini hanya untuk pengguna yang terbanned..',
         created: 'Perintah ini hanya pengguna yang sudah membuat base\nContoh: #createbase Aine',
         group: 'Perintah ini hanya dapat digunakan di grup!',
-        private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-        admin: 'Perintah ini hanya untuk *Admin* grup!',
-        botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
+        private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!!!!',
+        admin: 'Perintah ini hanya untuk *Admin* grup!TOLOLL!!?',
+        botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!GOBLOK!!',
         unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
         restrict: 'Fitur ini di *disable*!'
     }[type]
